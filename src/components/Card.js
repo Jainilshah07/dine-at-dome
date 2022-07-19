@@ -1,6 +1,13 @@
 import React from "react";
+import { useNavigate } from 'react-router-dom'
 
 const Card = (props) => {
+  const navigate = useNavigate() ;
+
+  const handleClick = async (e) => {
+    e.preventDefault();
+    navigate("/destination");
+}
   const isTitle = props.title;
   const isRating = props.rating;
   const hasDrinks = props.drinks;
@@ -8,7 +15,7 @@ const Card = (props) => {
   const hasFeild = props.feild;
   return (
     <>
-      <div className="card m-2" style={{ width: "400px", height: "510px" }}>
+      <div className="card m-2" onClick={handleClick} style={{ width: "400px", height: "510px" }}>
         <img
           className="card-img-top card-img ml-2 mt-1 mr-1"
           src={props.source}
