@@ -38,7 +38,12 @@
   }
 } */
 
-h2,h3{
+*{
+  font-family: 'Nanum Gothic Coding', monospace;
+  /* font-family: 'Water Brush', cursive; */
+}
+
+h2,h3 ,.contact{
   text-align: center;
 }
 .card-img{
@@ -55,4 +60,54 @@ hr{
   color: inherit;
   border: 0;
   opacity: .25;
+}
+/* footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+} */
+.contactimg{
+  object-fit: cover;
+}
+.about{
+  background-color: rgb(0, 0, 72);
+}
+.aboutimg{
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  overflow: hidden;
+}
+.imgcardcontact{
+  margin-left: 4.5rem;
+  width: 500px;
+  height: 500px;
+  object-fit: contain;
+  overflow: auto;
+}
+.abtcontent{
+  margin-top: 6.5rem;
+}
+.about{
+  color: white;
+}
+.abticon{
+  margin-left: 220px;
+  margin-bottom: 25px;
+}
+
+.abtcards{
+  justify-content: center;
+  align-items: center;
+}
+.hr{
+  /* margin: 1rem 0; */ 
+  /* color: inherit; */
+  border: 0;
+  border-top: 1px solid;
+  /* opacity: .25;*/
 }

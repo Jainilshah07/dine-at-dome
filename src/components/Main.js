@@ -16,14 +16,14 @@ const Main = () => {
   return (
     <>
       <div className="main">
-        <Navbar />
+        
         <img className="img" src={randomImage} alt="" />
         <caption>
-          <h2>Dine at Dome</h2>
-          <h6>
+          <h1>Dine at Dome</h1>
+          <h5>
             Unique and memorable <br />
             dining experiences, near you.
-          </h6>
+          </h5>
           <br />
           <select name="region" id="region">
             <optgroup label="All Regions" />
