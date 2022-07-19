@@ -44,3 +44,15 @@ h2,h3{
 .card-img{
   object-fit:cover;
 }
+
+.work{
+  margin: 0;
+  width: auto;
+  box-sizing: border-box;
+  background-color: rgb(255, 246, 233);
+}
+hr{
+  color: inherit;
+  border: 0;
+  opacity: .25;
+}

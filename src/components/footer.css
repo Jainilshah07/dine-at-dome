@@ -1,0 +1,12 @@
+.footer-copyright ul li {
+    float: left;
+    font-size: small;
+    font-weight: 400;
+    color: aliceblue;
+    display: inline;
+    list-style-type: disc;
+}
+.footer-copyright{
+    background-color: rgb(0, 0, 23);
+    color: aliceblue;
+}
