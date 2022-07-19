@@ -43,8 +43,9 @@ figure p {
 }
 li a :hover{
     background-color: transparent;
-    color: rgb(157, 255, 0);
+    color: rgb(192, 255, 91); 
 }
+/* color: rgb(157, 255, 0); */
 
 /* caption select{
     size: 2.5em;
