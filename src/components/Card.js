@@ -10,6 +10,7 @@ const Card = (props) => {
 }
   const isTitle = props.title;
   const isRating = props.rating;
+  const isLocation = props.location;
   const hasDrinks = props.drinks;
   const hasRest = props.rest;
   const hasFeild = props.feild;
@@ -30,6 +31,7 @@ const Card = (props) => {
         <ul className="list-group list-group-flush">
           <li className="list-group-item">
             {isRating !== "" ? <img src={props.rating} alt="" /> : ""}
+            <h5  style={{display:"inline-block",margin:"0 68px"}} >{isLocation !== "" ? props.location: ""}</h5> 
           </li>
         </ul>
         <div className="card-body">

@@ -1,9 +1,11 @@
 import React from "react";
 import contact from "../assets/contact.jpg";
+import Nav2 from "./Nav2/Nav2"
 
 const Contact = () => {
   return (
     <>
+    <Nav2/>
       <img className="contactimg" src={contact} alt="" 
       width={"100%"}
       height={517} />

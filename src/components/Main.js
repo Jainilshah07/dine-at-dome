@@ -16,7 +16,7 @@ const Main = () => {
   return (
     <>
       <div className="main">
-        
+        <Navbar/>
         <img className="img" src={randomImage} alt="" />
         <caption>
           <h1>Dine at Dome</h1>

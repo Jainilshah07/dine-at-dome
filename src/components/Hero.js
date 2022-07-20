@@ -22,6 +22,7 @@ const Hero = () => {
           <div className="row">
             <div className="col-md-12 d-flex justify-content-end">
             <Card source={img1}
+              location="Wales"
               title="Bring in your “social-bubble”"
               description="Book your own, private dome for a memorable and safe dining experience"
               rating={rating8}
@@ -31,6 +32,7 @@ const Hero = () => {
               />
             <Card
               source={img5}
+              location="Scotland"
               title="The Lancaster Arms"
               description="A classic country pub for eating & drinking."
               rating={rating9}
@@ -39,6 +41,7 @@ const Hero = () => {
             /> 
             <Card 
               source={img2}
+              location="United States"
               title="The Willow Tree"
               description="Elegant shabby chic restaurant with al fresco terrace."
               rating={rating8}
@@ -52,6 +55,7 @@ const Hero = () => {
           <div className="row">
             <div className="col-md-12 d-flex justify-content-end">
             <Card source={img7}
+              location="North Ireland"
               title="Peppe Restaurant"
               description="An authentic Italian restaurant made with love. "
               rating={rating5}
@@ -60,6 +64,7 @@ const Hero = () => {
               
             <Card
               source={img8}
+              location="Quebec"
               title="The Falcon at Hatton"
               description="Fresh produce is at the heart of this culinary experience."
               rating={rating8}
@@ -69,6 +74,7 @@ const Hero = () => {
             <Card 
               source={abt0}
               title="The Reverie"
+              location="Pennyslyvia"
               description="A relaxed restaurant with locally sourced food. A serene ambience for an exquisite dining experience just 25 miles south of London"
               rating={rating9}
               drinks={drinks} 

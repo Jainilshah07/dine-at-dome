@@ -5,53 +5,34 @@ import img5 from "../assets/5thcard.jpg";
 import img7 from "../assets/7thcard.jpg";
 import img8 from "../assets/8thcard.jpg";
 import abt0 from "../assets/about0.jpg";
+import Booking from "./Booking";
 import Detailcard from "./Detailcard";
 import Map from "./Map";
+import Nav2 from "./Nav2/Nav2";
 
 const Carousel = () => {
   return (
     <>
+    <Nav2/>
       <div
-        id="carouselExampleIndicators"
+        id="carouselExampleControls"
         className="carousel slide"
         data-ride="carousel"
       >
-        <ol className="carousel-indicators">
-          <li
-            data-target="#carouselExampleIndicators"
-            data-slide-to="0"
-            className="active"
-          ></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-          {/* <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="6"></li> */}
-        </ol>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img className="d-block carouselcard w-100 h-50" src={img7} alt="First slide" />
+            <img className="d-block w-100" src={img2} alt="First slide" />
           </div>
           <div className="carousel-item">
-            <img className="d-block carouselcard w-100 h-50" src={img1} alt="Second slide" />
+            <img className="d-block w-100" src={img5} alt="Second slide" />
           </div>
           <div className="carousel-item">
-            <img className="d-block carouselcard w-100 h-50" src={img5} alt="Third slide" />
+            <img className="d-block w-100" src={img7} alt="Third slide" />
           </div>
-          {/* <div className="carousel-item">
-            <img className="d-block w-100" src={img2} alt="Fourth slide" />
-          </div>
-          <div className="carousel-item">
-            <img className="d-block w-100" src={img7} alt="Fifth slide" />
-          </div>
-          <div className="carousel-item">
-            <img className="d-block w-100" src={abt0} alt="Sixth slide" />
-          </div> */}
         </div>
         <a
           className="carousel-control-prev"
-          href="#carouselExampleIndicators"
+          href="#carouselExampleControls"
           role="button"
           data-slide="prev"
         >
@@ -60,7 +41,7 @@ const Carousel = () => {
         </a>
         <a
           className="carousel-control-next"
-          href="#carouselExampleIndicators"
+          href="#carouselExampleControls"
           role="button"
           data-slide="next"
         >
@@ -68,16 +49,26 @@ const Carousel = () => {
           <span className="sr-only">Next</span>
         </a>
       </div>
-      <br /><br /><br />
+      <br />
+      <br />
+      <br />
 
       <div className="container">
         <div className="row">
-            <div className="col-6">
-                <Detailcard/>
-            </div>
-            <div className="col-6">
-                <Map/>
-            </div>
+          <div className="col-6">
+            <Detailcard />
+            <hr className="hr" />
+            <Booking/>
+          </div>
+          <div className="col-6">
+            <Map />
+          </div>
+        </div>
+
+        <div className="row">
+          <div className="col-6">
+            
+          </div>
         </div>
       </div>
     </>
