@@ -1,5 +1,6 @@
 import React from "react";
 import about0 from "../assets/about0.jpg";
+import about1 from "../assets/about1.png";
 import img7 from "../assets/7thcard.jpg";
 import img8 from "../assets/8thcard.jpg";
 import img3 from "../assets/3rdcard.jpg";
@@ -16,7 +17,13 @@ const About = () => {
       <Nav2 />
 
       <div className="about">
-        <img className="aboutimg" src={about0} alt="" />
+        <div className="abtmain">
+          <img className="aboutimg" src={about0} alt="" />
+          <img className="aboutimglogo" src={about1} alt="" />
+          <h2 className="aboutimgtext" >Safe and unique dining experience <br />
+          for the new reality</h2>
+        </div>
+
         <br />
         <br />
         {/* 4 cards alternate sides */}
